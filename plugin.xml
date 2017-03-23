@@ -11,10 +11,10 @@
 
   <platform name="ios">
     <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
-      <string>Used for feedback</string>
+      <string>Bifoga bilder i feedback</string>
     </config-file>
     <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
-      <string>Used for feedback</string>
+      <string>Bifoga bilder i feedback</string>
     </config-file>
   </platform>
 
