@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        id="com.ngenic.hockeyapp-fix"
+        version="0.0.1">
+
+  <name>HockeyappFix</name>
+
+  <engines>
+    <engine name="cordova" version=">=3.4.0"/>
+  </engines>
+
+  <platform name="android">
+  </platform>
+
+  <platform name="ios">
+    <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
+      <string>Used for feedback</string>
+    </config-file>
+    <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
+      <string>Used for feedback</string>
+    </config-file>
+  </platform>
+
+</plugin>
